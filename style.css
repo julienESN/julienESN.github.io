@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xxx-large;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: xxx-large;
+}
+div {
+  text-align: center;
+}
+
+#btn {
+    height: 5rem;
+    width: 10rem;
+}
