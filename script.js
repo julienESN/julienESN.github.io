@@ -43,7 +43,7 @@ function justeprix() {
   }
   // Case : Il n'a pas rentrer de nombre
   else if (dataparsed === "") {
-    alert("Il faut rentrer un ");
+    alert("Il faut rentrer un nombre ");
     essais++;
     console.log("Tu a réaliser " + essais + " essais");
 
