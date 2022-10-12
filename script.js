@@ -12,7 +12,7 @@ let essais = 0;
 function justeprix() {
   // Je demande a l'utilisateur un nombre
   let data = prompt("Quel est le prix ?");
-  // Je transforme le prompt en parseInt car il génere uniquement du texte et je le veux en type number
+  // Je transforme le prompt en parseInt car il génere uniquement du texte et je le veux en type number avec une base de 10 (Chiffre utilisé au quotidien)
   let dataparsed = parseInt(data, 10);
   // J'indique a l'utilisateur dans la console la valeur qu'il/elle a rentré dans le prompt
   console.log(dataparsed);
