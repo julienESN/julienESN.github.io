@@ -22,7 +22,7 @@ let game = {
 let score = [];
 // Push dans l'array le premier justeprix
 score.push(justeprix);
-// console.log(result);  Si vous voulez affichez le result enlevez le commentaire de cette ligne
+// console.log(justeprix); //;  Si vous voulez affichez le result enlevez le commentaire de cette ligne
 function play() {
   // Je demande a l'utilisateur un nombre
   let data = prompt("Quel est le prix ?");
@@ -42,8 +42,13 @@ function play() {
     resulta.textContent = "Le juste prix est : " + justeprix;
     // Je met dans mon array(score) le nouveau juste prix
     score.push(justeprix);
-    // console.log(score);
-    play();
+    // Pop pour demander au joueur si il veux rejouez
+    if (confirm("Veux tu rejouer") === true) {
+      play();
+    } else {
+      console.log("Tu a arreter de jouer :)");
+    }
+    //Tant que la valeur saisie n'est pas la bonne, on lui demande à nouveau
   } else if (dataparsed < justeprix) {
     alert("Plus grand :)");
     essais++;
