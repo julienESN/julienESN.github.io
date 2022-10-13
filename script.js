@@ -3,7 +3,7 @@ const btn = document.getElementById("btn");
 const resulta = document.getElementById("result");
 
 function randomnumber(min, max) {
-  // Function pour générer un nombre aléatoire entre deux argument choisis et je le stock dans une variable
+  // Function pour générer un nombre aléatoire entre deux argument choisis et je le stock dans une variable en l'appellant
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
