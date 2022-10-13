@@ -42,7 +42,7 @@ function play() {
     resulta.textContent = "Le juste prix est : " + justeprix;
     // Je met dans mon array(score) le nouveau juste prix
     score.push(justeprix);
-    console.log(score);
+    // console.log(score);
     play();
   } else if (dataparsed < justeprix) {
     alert("Plus grand :)");
