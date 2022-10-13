@@ -37,7 +37,7 @@ function play() {
     essais++;
     console.log("Tu a réaliser " + essais + " essais");
     console.log("Fin du jeu bien jouer :) !");
-    resulta.textContent = "Le juste prix est : " + justeprix;
+    // resulta.textContent = "Le juste prix est : " + justeprix;
     justeprix = randomnumber(1, 550);
     // J'insere le texte  + mon résultat
     // Je met dans mon array(score) le nouveau juste prix
